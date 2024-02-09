@@ -29,11 +29,11 @@ const Login = () => {
       });
 
   return (
-      <Grid container spacing={8}>
-        <Grid item xs={6}>
-        <img width="600px" alt="Imagem de lista de tarefas" src="./src/assets/todo.jpg" />
+      <Grid container>
+        <Grid item xs={6} marginTop="150px">
+        <img width="900px" alt="Imagem de lista de tarefas" src="./src/assets/todo.jpg" />
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={6} marginTop="250px">
         <form onSubmit={(e) => { e.preventDefault(); formik.handleSubmit(e)}}>
         <Box
           sx={{

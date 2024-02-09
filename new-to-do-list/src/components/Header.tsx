@@ -4,8 +4,8 @@ import SearchIcon from '@mui/icons-material/Search';
 const Header = () => {
 
   return (
-    <Toolbar sx={{ borderBottom: 1, borderColor: 'divider' }}>
-      <Button size="small">Subscribe</Button>
+    <Toolbar sx={{ borderBottom: 1, borderColor: 'divider', marginTop: '0' }}>
+      <Typography>Olá, Cristiane!</Typography>
       <Typography
         component="h2"
         variant="h5"
